@@ -38,5 +38,5 @@ hawser_group: "docker"
 # GitHub repository for downloads
 hawser_github_repo: "Finsys/hawser"
 
-# ReadWritePaths (everything else is read only ReadOnlyPaths=/)
+# STACKS_DIR and ReadWritePaths (everything else is read only ReadOnlyPaths=/)
 hawser_stack_dir: "/data/stacks"
