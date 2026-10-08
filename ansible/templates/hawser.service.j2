@@ -22,6 +22,7 @@ ProtectSystem=strict
 ProtectHome=true
 PrivateTmp=true
 ReadOnlyPaths=/
+ReadWritePaths=/var/run/docker.sock {{ hawser_stack_dir }}
 
 [Install]
 WantedBy=multi-user.target
